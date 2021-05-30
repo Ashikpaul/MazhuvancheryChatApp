@@ -47,7 +47,7 @@ function SignIn() {
   return (
     <div className="signInSection">
       <button className="signIn" onClick={() => signInWithGoogle()}>
-        Sign in with Google
+        Sign-in with Google
       </button>
     </div>
   );
@@ -122,7 +122,7 @@ const ChatMessage = (props) => {
         </div>
       ) : (
         <div className={`message ${messageClass}`}>
-          <span> {text}</span>
+          <span> {text} </span>
           <img src={photoURL} alt="" />
         </div>
       )}
@@ -134,7 +134,10 @@ export default function App() {
   const [user] = useAuthState(auth);
   return (
     <div className="App">
-      <header>Mazhuvanchery Chat App</header>
+      <header>
+        <div className="signOutSection">Mazhuvanchery Chat App</div>
+        <div className="signOutButton">{user ? <SignOut /> : ""}</div>
+      </header>
       <section>{user ? <ChatRoom /> : <SignIn />}</section>
     </div>
   );
