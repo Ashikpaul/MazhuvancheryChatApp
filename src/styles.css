@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: darkorange;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: blueviolet;
+  width: 100vw;
+  height: 100vh;
+}
+
+.message {
+  margin: 10px;
+}
+
+.sent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.received {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+form {
+  position: absolute;
+  bottom: 5px;
+  margin-left: 7px;
+}
+
+input {
+  width: 80vw;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.sent span {
+  background-color: lightcoral;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.received span {
+  background-color: lightgoldenrodyellow;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+button {
+  width: 16vw;
+  height: 25px;
+  margin-left: 2px;
+  padding: 0;
+  background-color: lightsalmon;
+}
