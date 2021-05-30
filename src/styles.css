@@ -80,10 +80,23 @@ span {
   padding-left: 20px;
 }
 
-button {
+.sendButton {
   width: 16vw;
   height: 25px;
   margin-left: 2px;
   padding: 0;
   background-color: lightsalmon;
+}
+
+.signInSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.signIn {
+  width: 70vw;
+  height: 10vh;
+  font-size: 20px;
 }
