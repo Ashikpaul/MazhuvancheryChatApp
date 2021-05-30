@@ -11,6 +11,7 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
+  width: 100%;
 }
 
 .App {
@@ -68,16 +69,16 @@ span {
   background-color: lightcoral;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .received span {
   background-color: lightgoldenrodyellow;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .sendButton {
@@ -99,4 +100,17 @@ span {
   width: 70vw;
   height: 10vh;
   font-size: 20px;
+}
+
+.signOutSection {
+  width: 80%;
+}
+
+.signOutButton {
+  width: 20%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 25px;
 }
