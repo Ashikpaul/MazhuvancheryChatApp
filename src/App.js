@@ -45,7 +45,11 @@ function SignIn() {
   };
 
   return (
-    <button onClick={() => signInWithGoogle()}>Sign in with Google</button>
+    <div className="signInSection">
+      <button className="signIn" onClick={() => signInWithGoogle()}>
+        Sign in with Google
+      </button>
+    </div>
   );
 }
 
@@ -96,7 +100,9 @@ const ChatRoom = () => {
           value={formValue}
           onChange={(e) => setFormValue(e.target.value)}
         />
-        <button type="submit">Send</button>
+        <button className="sendButton" type="submit">
+          Send
+        </button>
       </form>
     </>
   );
